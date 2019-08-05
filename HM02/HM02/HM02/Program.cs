@@ -18,27 +18,27 @@ namespace HM02
             switch(operation)
             {
                 case "+":
-                    Console.WriteLine(num01 + num02);
+                    Console.WriteLine($"The result is: {num01 + num02}");
                 break;
 
                 case "-":
-                    Console.WriteLine(num01 - num02);
+                    Console.WriteLine($"The result is: {num01 - num02}");
                     break;
 
                 case "*":
-                    Console.WriteLine(num01 * num02);
+                    Console.WriteLine($"The result is: {num01 * num02}");
                     break;
 
                 case "/":
-                    Console.WriteLine(num01 / num02);
+                    Console.WriteLine($"The result is: {num01 / num02}");
                     break;
 
                 case "%":
-                    Console.WriteLine(num01 % num02);
+                    Console.WriteLine($"The result is: {num01 % num02}");
                     break;
 
                 case "^":
-                    Console.WriteLine(Math.Pow(num01, num02));
+                    Console.WriteLine($"The result is: {Math.Pow(num01, num02)}");
                     break;
                 
             }
