@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\bin\Debug\netcoreapp2.2\HM02.deps.json
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\bin\Debug\netcoreapp2.2\HM02.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\bin\Debug\netcoreapp2.2\HM02.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\bin\Debug\netcoreapp2.2\HM02.dll
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\bin\Debug\netcoreapp2.2\HM02.pdb
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\obj\Debug\netcoreapp2.2\HM02.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\obj\Debug\netcoreapp2.2\HM02.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\obj\Debug\netcoreapp2.2\HM02.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\obj\Debug\netcoreapp2.2\HM02.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\obj\Debug\netcoreapp2.2\HM02.dll
+C:\Users\kachi\Desktop\С# Course\HM02\HM02\HM02\obj\Debug\netcoreapp2.2\HM02.pdb
