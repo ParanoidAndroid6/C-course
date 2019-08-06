@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\bin\Debug\netcoreapp2.2\HM03.deps.json
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\bin\Debug\netcoreapp2.2\HM03.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\bin\Debug\netcoreapp2.2\HM03.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\bin\Debug\netcoreapp2.2\HM03.dll
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\bin\Debug\netcoreapp2.2\HM03.pdb
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\obj\Debug\netcoreapp2.2\HM03.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\obj\Debug\netcoreapp2.2\HM03.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\obj\Debug\netcoreapp2.2\HM03.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\obj\Debug\netcoreapp2.2\HM03.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\obj\Debug\netcoreapp2.2\HM03.dll
+C:\Users\kachi\Desktop\С# Course\HM03\HM03\HM03\obj\Debug\netcoreapp2.2\HM03.pdb
