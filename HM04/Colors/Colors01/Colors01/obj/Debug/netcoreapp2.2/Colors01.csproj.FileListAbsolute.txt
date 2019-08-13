@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\bin\Debug\netcoreapp2.2\Colors01.deps.json
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\bin\Debug\netcoreapp2.2\Colors01.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\bin\Debug\netcoreapp2.2\Colors01.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\bin\Debug\netcoreapp2.2\Colors01.dll
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\bin\Debug\netcoreapp2.2\Colors01.pdb
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\obj\Debug\netcoreapp2.2\Colors01.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\obj\Debug\netcoreapp2.2\Colors01.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\obj\Debug\netcoreapp2.2\Colors01.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\obj\Debug\netcoreapp2.2\Colors01.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\obj\Debug\netcoreapp2.2\Colors01.dll
+C:\Users\kachi\Desktop\С# Course\HM04\Colors\Colors01\Colors01\obj\Debug\netcoreapp2.2\Colors01.pdb

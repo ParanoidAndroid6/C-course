@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\bin\Debug\netcoreapp2.2\ContainerHM.deps.json
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\bin\Debug\netcoreapp2.2\ContainerHM.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\bin\Debug\netcoreapp2.2\ContainerHM.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\bin\Debug\netcoreapp2.2\ContainerHM.dll
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\bin\Debug\netcoreapp2.2\ContainerHM.pdb
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\obj\Debug\netcoreapp2.2\ContainerHM.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\obj\Debug\netcoreapp2.2\ContainerHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\obj\Debug\netcoreapp2.2\ContainerHM.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\obj\Debug\netcoreapp2.2\ContainerHM.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\obj\Debug\netcoreapp2.2\ContainerHM.dll
+C:\Users\kachi\Desktop\С# Course\HM04\Containers\ContainerHM\ContainerHM\obj\Debug\netcoreapp2.2\ContainerHM.pdb
