@@ -1,0 +1,10 @@
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\bin\Debug\netcoreapp2.2\FiguresHM.deps.json
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\bin\Debug\netcoreapp2.2\FiguresHM.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\bin\Debug\netcoreapp2.2\FiguresHM.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\bin\Debug\netcoreapp2.2\FiguresHM.dll
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\bin\Debug\netcoreapp2.2\FiguresHM.pdb
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\obj\Debug\netcoreapp2.2\FiguresHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\obj\Debug\netcoreapp2.2\FiguresHM.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\obj\Debug\netcoreapp2.2\FiguresHM.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\obj\Debug\netcoreapp2.2\FiguresHM.dll
+C:\Users\kachi\Desktop\С# Course\HM05\FiguresHM\FiguresHM\obj\Debug\netcoreapp2.2\FiguresHM.pdb

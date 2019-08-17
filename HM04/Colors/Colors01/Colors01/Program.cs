@@ -20,20 +20,21 @@ namespace Colors01
         static void Main(string[] args)
         {
             Colors allColors = Colors.Black | Colors.Blue | Colors.Green | Colors.Grey | Colors.Magenta | Colors.Red | Colors.White | Colors.Yellow;
+            Colors favoriteColors = 0;
 
             foreach (var item in Enum.GetValues(typeof(Colors)))
             {
                 Console.WriteLine($"{item}: {Convert.ToInt32(item)}");
             }
 
-            Console.WriteLine("Choose four colors to add them in favorites (type their numbers in console): ");
+           for (var i = 0; i < 4; i++)
+            {
+                Console.WriteLine($"Choose four colors to add them in favorites (type their numbers in console) {i + 1} :  ");
+                object myCollors = Enum.Parse(typeof(Colors), Console.ReadLine());
 
-            var input1 = (Colors)Enum.Parse(typeof(Colors), Console.ReadLine());
-            var input2 = (Colors)Enum.Parse(typeof(Colors), Console.ReadLine());
-            var input3 = (Colors)Enum.Parse(typeof(Colors), Console.ReadLine());
-            var input4 = (Colors)Enum.Parse(typeof(Colors), Console.ReadLine());
+                favoriteColors = favoriteColors | (Colors)myCollors;
 
-            Colors favoriteColors = input1 | input2 | input3 | input4;
+            }
 
             Console.WriteLine($"Your favorite colors are: {favoriteColors}");
 
