@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\bin\Debug\netcoreapp2.2\NumbersHM.deps.json
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\bin\Debug\netcoreapp2.2\NumbersHM.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\bin\Debug\netcoreapp2.2\NumbersHM.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\bin\Debug\netcoreapp2.2\NumbersHM.dll
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\bin\Debug\netcoreapp2.2\NumbersHM.pdb
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\obj\Debug\netcoreapp2.2\NumbersHM.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\obj\Debug\netcoreapp2.2\NumbersHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\obj\Debug\netcoreapp2.2\NumbersHM.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\obj\Debug\netcoreapp2.2\NumbersHM.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\obj\Debug\netcoreapp2.2\NumbersHM.dll
+C:\Users\kachi\Desktop\С# Course\HM06\Numbers\NumbersHM\NumbersHM\obj\Debug\netcoreapp2.2\NumbersHM.pdb
