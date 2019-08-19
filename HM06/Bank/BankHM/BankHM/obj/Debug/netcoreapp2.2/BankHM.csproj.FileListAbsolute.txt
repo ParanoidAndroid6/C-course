@@ -1,0 +1,11 @@
+C:\Users\kachi\source\repos\BankHM\BankHM\bin\Debug\netcoreapp2.2\BankHM.deps.json
+C:\Users\kachi\source\repos\BankHM\BankHM\bin\Debug\netcoreapp2.2\BankHM.runtimeconfig.json
+C:\Users\kachi\source\repos\BankHM\BankHM\bin\Debug\netcoreapp2.2\BankHM.runtimeconfig.dev.json
+C:\Users\kachi\source\repos\BankHM\BankHM\bin\Debug\netcoreapp2.2\BankHM.dll
+C:\Users\kachi\source\repos\BankHM\BankHM\bin\Debug\netcoreapp2.2\BankHM.pdb
+C:\Users\kachi\source\repos\BankHM\BankHM\obj\Debug\netcoreapp2.2\BankHM.csprojAssemblyReference.cache
+C:\Users\kachi\source\repos\BankHM\BankHM\obj\Debug\netcoreapp2.2\BankHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\source\repos\BankHM\BankHM\obj\Debug\netcoreapp2.2\BankHM.AssemblyInfoInputs.cache
+C:\Users\kachi\source\repos\BankHM\BankHM\obj\Debug\netcoreapp2.2\BankHM.AssemblyInfo.cs
+C:\Users\kachi\source\repos\BankHM\BankHM\obj\Debug\netcoreapp2.2\BankHM.dll
+C:\Users\kachi\source\repos\BankHM\BankHM\obj\Debug\netcoreapp2.2\BankHM.pdb
