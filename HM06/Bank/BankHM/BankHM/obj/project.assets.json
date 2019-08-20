@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kachi\\source\\repos\\BankHM\\BankHM\\BankHM.csproj",
+      "projectUniqueName": "C:\\Users\\kachi\\Desktop\\С# Course\\HM06\\Bank\\BankHM\\BankHM\\BankHM.csproj",
       "projectName": "BankHM",
-      "projectPath": "C:\\Users\\kachi\\source\\repos\\BankHM\\BankHM\\BankHM.csproj",
+      "projectPath": "C:\\Users\\kachi\\Desktop\\С# Course\\HM06\\Bank\\BankHM\\BankHM\\BankHM.csproj",
       "packagesPath": "C:\\Users\\kachi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kachi\\source\\repos\\BankHM\\BankHM\\obj\\",
+      "outputPath": "C:\\Users\\kachi\\Desktop\\С# Course\\HM06\\Bank\\BankHM\\BankHM\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

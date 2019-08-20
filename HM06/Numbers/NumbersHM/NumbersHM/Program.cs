@@ -6,45 +6,31 @@ namespace NumbersHM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите любое натуральное число не более 2 миллиардов: ");
-            
+            var counter = 0;
             try
             {
-                var count = 0;
-                var input = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter a number below 2 000 000");
+                var number = Console.ReadLine();
 
-                if (input > 0)
+                for (var i = 0; i < number.Length; i++)
                 {
-                    while (input != 0)
+                    if (number[i] % 2 == 0)
                     {
-                        if ((input % 10) % 2 == 0)
-                        {
-                            count++;
-                        }
-
-                       input /= 10;
+                        counter++;
                     }
                 }
-               
-                else
-                {
-                    Console.WriteLine("Введите натуральное число!");
-                }
 
-                Console.WriteLine($"В числе содержится {count} четных чисел");
             }
-
             catch (FormatException)
             {
-                Console.WriteLine("Нужно ввести число!");
+                Console.WriteLine("Error! Enter the number");
             }
-
             catch (OverflowException)
             {
-                Console.WriteLine("Слишком большое число, попробуйте снова");
+                Console.WriteLine("Error! Enter right value");
             }
 
-           
+            Console.WriteLine($"There are {counter} even numbers in entered value");
 
             Console.ReadKey();
         }
