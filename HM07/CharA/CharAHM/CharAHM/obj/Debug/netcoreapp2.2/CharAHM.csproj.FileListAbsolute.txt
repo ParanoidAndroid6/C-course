@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\bin\Debug\netcoreapp2.2\CharAHM.deps.json
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\bin\Debug\netcoreapp2.2\CharAHM.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\bin\Debug\netcoreapp2.2\CharAHM.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\bin\Debug\netcoreapp2.2\CharAHM.dll
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\bin\Debug\netcoreapp2.2\CharAHM.pdb
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\obj\Debug\netcoreapp2.2\CharAHM.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\obj\Debug\netcoreapp2.2\CharAHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\obj\Debug\netcoreapp2.2\CharAHM.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\obj\Debug\netcoreapp2.2\CharAHM.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\obj\Debug\netcoreapp2.2\CharAHM.dll
+C:\Users\kachi\Desktop\С# Course\HM07\CharA\CharAHM\CharAHM\obj\Debug\netcoreapp2.2\CharAHM.pdb
