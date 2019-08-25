@@ -6,32 +6,51 @@ namespace CharAHM
     {
         static void Main(string[] args)
         {
-            int i;
+            string[] s;
             while (true)
             {
-                string input = Console.ReadLine();
-                string[] words = input.Split(" ");
+                try
+                {
+                    string input = Console.ReadLine();
+                    s = input.Split(' ');
+                }
 
-                if (words.Length < 2)
+                catch (NullReferenceException)
+                {
+                    Console.WriteLine("Вы ничего не ввели!");
+                    continue;
+                }
+
+                catch (FormatException)
+                {
+                    Console.WriteLine("Введите слова!");
+                    continue;
+                }
+
+                if (s.Length < 2)
                 {
                     Console.WriteLine("Введите минимум два слова!");
                     continue;
                 }
 
-                if (words.Length > 1)
-                {
-                    for (i = 0; i < words.Length; i++)
-                    {
-                        if(words[i].StartsWith('A'))
-                        {
-                            i++;
-                        }
-                    }
+                else
                     break;
+            }
+
+            int count = 0;
+
+            for (var i = 0; i < s.Length; i++)
+            {
+                if (s[i].StartsWith('A'))
+                {
+                    count++;
                 }
             }
-            Console.WriteLine($"{i}");
+
+            Console.WriteLine($"Количество слов, начинающися с буквы 'А': {count}");
             Console.ReadKey();
         }
+
     }
 }
+
