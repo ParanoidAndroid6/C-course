@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\bin\Debug\netcoreapp2.2\ScobkiHM.deps.json
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\bin\Debug\netcoreapp2.2\ScobkiHM.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\bin\Debug\netcoreapp2.2\ScobkiHM.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\bin\Debug\netcoreapp2.2\ScobkiHM.dll
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\bin\Debug\netcoreapp2.2\ScobkiHM.pdb
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\obj\Debug\netcoreapp2.2\ScobkiHM.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\obj\Debug\netcoreapp2.2\ScobkiHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\obj\Debug\netcoreapp2.2\ScobkiHM.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\obj\Debug\netcoreapp2.2\ScobkiHM.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\obj\Debug\netcoreapp2.2\ScobkiHM.dll
+C:\Users\kachi\Desktop\С# Course\HM08\ScobkiHM\ScobkiHM\obj\Debug\netcoreapp2.2\ScobkiHM.pdb
