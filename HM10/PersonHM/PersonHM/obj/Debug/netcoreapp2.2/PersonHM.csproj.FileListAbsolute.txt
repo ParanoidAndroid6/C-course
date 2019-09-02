@@ -1,0 +1,11 @@
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\bin\Debug\netcoreapp2.2\PersonHM.deps.json
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\bin\Debug\netcoreapp2.2\PersonHM.runtimeconfig.json
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\bin\Debug\netcoreapp2.2\PersonHM.runtimeconfig.dev.json
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\bin\Debug\netcoreapp2.2\PersonHM.dll
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\bin\Debug\netcoreapp2.2\PersonHM.pdb
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\obj\Debug\netcoreapp2.2\PersonHM.csprojAssemblyReference.cache
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\obj\Debug\netcoreapp2.2\PersonHM.csproj.CoreCompileInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\obj\Debug\netcoreapp2.2\PersonHM.AssemblyInfoInputs.cache
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\obj\Debug\netcoreapp2.2\PersonHM.AssemblyInfo.cs
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\obj\Debug\netcoreapp2.2\PersonHM.dll
+C:\Users\kachi\Desktop\С# Course\HM10\PersonHM\PersonHM\obj\Debug\netcoreapp2.2\PersonHM.pdb
