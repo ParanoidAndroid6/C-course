@@ -19,7 +19,10 @@ namespace PersonHM
                 person[i].Age = int.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine($"{person[0].Description}\n{person[1].Description}\n{person[2].Description}\n");
+            foreach(var per in person)
+            {
+                Console.WriteLine(per.Description);
+            }
             Console.ReadKey();
         }
 
