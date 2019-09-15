@@ -9,20 +9,16 @@ namespace HM13
     {
         static void Main(string[] args)
         {
-            ILogWriter cLW = new ConsoleLogWriter();
+            ConsoleLogWriter cLW = new ConsoleLogWriter();
             
-            ILogWriter fLW = new FileLogWriter();
+            FileLogWriter fLW = new FileLogWriter();
 
-            List<ILogWriter> list = new List<ILogWriter>(2)
-            {
-                cLW,
-                fLW
-            };
+            MultipleLogWriter mLW = new MultipleLogWriter(cLW, fLW);
 
+            mLW.LogError("Error!");
+            mLW.LogInfo("Information!");
+            mLW.LogWarning("Warning!");
 
-            ILogWriter mLW = new MultipleLogWriter(list);
-
-            
             Console.ReadKey();
         }
     }

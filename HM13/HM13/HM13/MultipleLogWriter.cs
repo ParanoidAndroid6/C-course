@@ -8,7 +8,7 @@ namespace HM13
     {
         IEnumerable<ILogWriter> _list;
 
-        void ILogWriter.LogError(string message)
+        public void LogError(string message)
         {
             foreach (var l in _list)
             {
@@ -16,7 +16,7 @@ namespace HM13
             }
         }
 
-        void ILogWriter.LogInfo(string message)
+        public void LogInfo(string message)
         {
             foreach (var l in _list)
             {
@@ -24,7 +24,7 @@ namespace HM13
             }
         }
 
-        void ILogWriter.LogWarning(string message)
+       public void LogWarning(string message)
         {
             foreach (var l in _list)
             {
@@ -32,7 +32,7 @@ namespace HM13
             }
         }
 
-        public MultipleLogWriter(List<ILogWriter> list)
+        public MultipleLogWriter(params ILogWriter[] list)
         {
             _list = list;
         }

@@ -4,17 +4,17 @@ namespace HM13
 {
     public class ConsoleLogWriter : ILogWriter
     {
-        void ILogWriter.LogError(string message)
+       public void LogError(string message)
         {
             Body(MessageType.Error, "Error!");
         }
 
-        void ILogWriter.LogInfo(string message)
+        public void LogInfo(string message)
         {
             Body(MessageType.Info, "Information!");
         }
 
-        void ILogWriter.LogWarning(string message)
+        public void LogWarning(string message)
         {
             Body(MessageType.Warning, "Warning!");
         }

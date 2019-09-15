@@ -7,17 +7,17 @@ namespace HM13
     {
         public string path = @"D:\file.txt";
 
-        void ILogWriter.LogError(string message)
+        public void LogError(string message)
         {
             Body(MessageType.Error, "File_Error!");
         }
 
-        void ILogWriter.LogInfo(string message)
+        public void LogInfo(string message)
         {
             Body(MessageType.Info, "File_Information!");
         }
 
-        void ILogWriter.LogWarning(string message)
+        public void LogWarning(string message)
         {
             Body(MessageType.Warning, "File_Warning!");
         }
