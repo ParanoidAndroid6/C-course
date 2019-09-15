@@ -3,31 +3,25 @@ using System.IO;
 
 namespace HM13
 {
-    public class FileLogWriter : ILogWriter
+    public class FileLogWriter : AbstractLogWriter, ILogWriter
     {
         public string path = @"D:\file.txt";
 
-        public void LogError(string message)
+        public override void LogError(string message)
         {
-            Body(MessageType.Error, "File_Error!");
+            WriteToFile(MessageType.Error, "File_Error!");
         }
 
-        public void LogInfo(string message)
+        public override void LogInfo(string message)
         {
-            Body(MessageType.Info, "File_Information!");
+            WriteToFile(MessageType.Info, "File_Information!");
         }
 
-        public void LogWarning(string message)
+        public override void LogWarning(string message)
         {
-            Body(MessageType.Warning, "File_Warning!");
+            WriteToFile(MessageType.Warning, "File_Warning!");
         }
 
-        private void Body(MessageType messageType, string message)
-        {
-            using (var sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
-            {
-                sw.WriteLine($"{DateTime.Now}\t {messageType}\t {message}");
-            }
-        }
+        
     }
 }
