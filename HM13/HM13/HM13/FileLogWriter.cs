@@ -22,6 +22,12 @@ namespace HM13
             WriteToFile(MessageType.Warning, "File_Warning!");
         }
 
-        
+        public void WriteToFile(MessageType messageType, string message)
+        {
+            using (var sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
+            {
+                sw.WriteLine($"{DateTime.Now}\t {messageType}\t {message}");
+            }
+        }
     }
 }

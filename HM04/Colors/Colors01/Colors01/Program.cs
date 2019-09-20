@@ -5,7 +5,7 @@ namespace Colors01
     class Program
     {
         [Flags]
-        enum Colors: byte
+        enum Colors: short
         {   
             
             Black = 1,
@@ -16,10 +16,12 @@ namespace Colors01
             Grey = 1<<5,
             Red = 1<<6,
             Blue = 1<<7,
+            Purple = 1<<8
         }
         static void Main(string[] args)
         {
-            Colors allColors = Colors.Black | Colors.Blue | Colors.Green | Colors.Grey | Colors.Magenta | Colors.Red | Colors.White | Colors.Yellow;
+            Colors allColors = Colors.Black | Colors.Blue | Colors.Green | Colors.Grey | Colors.Magenta | Colors.Red | Colors.White | Colors.Yellow | Colors.Purple;
+
             Colors favoriteColors = 0;
 
             foreach (var item in Enum.GetValues(typeof(Colors)))

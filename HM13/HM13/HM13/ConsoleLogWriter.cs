@@ -4,7 +4,7 @@ namespace HM13
 {
     public class ConsoleLogWriter : AbstractLogWriter, ILogWriter
     {
-       public override void LogError(string message)
+        public override void LogError(string message)
         {
             WriteToConsole(MessageType.Error, "Error!");
         }
@@ -18,5 +18,11 @@ namespace HM13
         {
             WriteToConsole(MessageType.Warning, "Warning!");
         }
+
+        public void WriteToConsole(MessageType messageType, string message)
+        {
+            Console.WriteLine($"{DateTime.Now}\t {messageType}\t {message}");
+        }
     }
+}
 }

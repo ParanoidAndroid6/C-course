@@ -12,7 +12,7 @@ namespace HM11
 
             reminders[1] = new PhoneReminderItem("+7 915-130-34-16", DateTimeOffset.Parse("05-09-2019 10:00:00"), "HELLO!");
 
-            reminders[2] = new ChatReminderItem("Chat1", "Yuri", DateTimeOffset.Parse("10-09-2019 06:30:00"), "YO!");
+            reminders[2] = new ChatReminderItem("Chat1", "Yuri", DateTimeOffset.Parse("21-09-2019 06:30:00"), "YO!");
             
             foreach(var rem in reminders)
             {
