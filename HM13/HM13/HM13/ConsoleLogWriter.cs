@@ -2,27 +2,26 @@
 
 namespace HM13
 {
-    public class ConsoleLogWriter : AbstractLogWriter, ILogWriter
+    public class ConsoleLogWriter : ILogWriter
     {
-        public override void LogError(string message)
+        public void LogError(string message)
         {
-            WriteToConsole(MessageType.Error, "Error!");
+            Body(MessageType.Error, message);
         }
 
-        public override void LogInfo(string message)
+        public void LogInfo(string message)
         {
-            WriteToConsole(MessageType.Info, "Information!");
+            Body(MessageType.Info, message);
         }
 
-        public override void LogWarning(string message)
+        public void LogWarning(string message)
         {
-            WriteToConsole(MessageType.Warning, "Warning!");
+            Body(MessageType.Warning, message);
         }
 
-        public void WriteToConsole(MessageType messageType, string message)
+        private void Body(MessageType messageType, string message)
         {
-            Console.WriteLine($"{DateTime.Now}\t {messageType}\t {message}");
+            Console.WriteLine($"{DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss.fff")}\t{messageType}\t{message}");
         }
     }
-}
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CCEA742E-7BED-4106-AE38-F9503A5118CF}</ProjectGuid>
+    <ProjectGuid>{31ECB09F-8A2D-4960-8953-13A5D54E5CA0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HM13</RootNamespace>
-    <AssemblyName>HM13</AssemblyName>
+    <RootNamespace>SingleTon</RootNamespace>
+    <AssemblyName>SingleTon</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseLog.cs" />
     <Compile Include="ConsoleLogWriter.cs" />
     <Compile Include="FileLogWriter.cs" />
     <Compile Include="ILogWriter.cs" />

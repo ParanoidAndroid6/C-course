@@ -1,32 +1,35 @@
 ﻿using System;
 using System.IO;
+using System;
+using System.IO;
+using System.Text;
 
 namespace HM13
 {
-    public class FileLogWriter : AbstractLogWriter, ILogWriter
+    public class FileLogWriter : ILogWriter
     {
         public string path = @"D:\file.txt";
 
-        public override void LogError(string message)
+        public void LogError(string message)
         {
-            WriteToFile(MessageType.Error, "File_Error!");
+            Body(MessageType.Error, message);
         }
 
-        public override void LogInfo(string message)
+        public void LogInfo(string message)
         {
-            WriteToFile(MessageType.Info, "File_Information!");
+            Body(MessageType.Info, message);
         }
 
-        public override void LogWarning(string message)
+        public void LogWarning(string message)
         {
-            WriteToFile(MessageType.Warning, "File_Warning!");
+            Body(MessageType.Warning, message);
         }
 
-        public void WriteToFile(MessageType messageType, string message)
+        private void Body(MessageType messageType, string message)
         {
-            using (var sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
+            using (var streamWriter = new StreamWriter(path, true, Encoding.UTF8))
             {
-                sw.WriteLine($"{DateTime.Now}\t {messageType}\t {message}");
+                streamWriter.WriteLine($"{DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss.fff")}\t{messageType}\t{message}");
             }
         }
     }
