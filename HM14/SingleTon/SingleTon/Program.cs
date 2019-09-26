@@ -12,9 +12,13 @@ namespace SingleTon
         {
             ConsoleLogWriter consoleLogWriter = ConsoleLogWriter.GetConsole();
             
-            var fileLogWriter = FileLogWriter.GetFileWriter();
-            
-            var multipleLogWriter = new MultipleLogWriter(consoleLogWriter, fileLogWriter);
+            var fileLogWriter = FileLogWriter.GetFileWriter(@"D:\file.txt");
+
+            var logs = new ILogWriter[2];
+            logs[0] = consoleLogWriter;
+            logs[1] = fileLogWriter;
+
+            var multipleLogWriter = MultipleLogWriter.GetMultipleLog(logs);
             
             multipleLogWriter.LogError("Error!");
             multipleLogWriter.LogInfo("Info!!!");

@@ -12,7 +12,7 @@ namespace SingleTon
 
             IEnumerable<ILogWriter> _list;
 
-            public MultipleLogWriter(params ILogWriter[] list)
+            private MultipleLogWriter(params ILogWriter[] list)
             {
                 _list = list;
             }
@@ -40,10 +40,10 @@ namespace SingleTon
 
             private MultipleLogWriter() { }
 
-            public static MultipleLogWriter GetMultipleLog()
+            public static MultipleLogWriter GetMultipleLog(ILogWriter[] list)
             {
                 if (_multipleLogWriter == null)
-                    _multipleLogWriter = new MultipleLogWriter();
+                    _multipleLogWriter = new MultipleLogWriter(list);
 
                 return _multipleLogWriter;
             }

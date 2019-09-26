@@ -8,11 +8,16 @@ namespace SingleTon
         {
             private static FileLogWriter _fileLogWriter;
 
-            public string path = @"D:\file.txt";
+            public static string Fullpath = @"D:\file.txt";
+
+            private FileLogWriter(string path)
+            {
+                Fullpath = path;
+            }
 
             public override void WriteSingleLog(MessageType messageType, string message)
             {
-                using (var sw = new StreamWriter(path, true, System.Text.Encoding.UTF8))
+                using (var sw = new StreamWriter(Fullpath, true, System.Text.Encoding.UTF8))
                 {
                     sw.WriteLine(GetFinalMessage(messageType, message));
                 }
@@ -20,10 +25,10 @@ namespace SingleTon
 
             private FileLogWriter() { }
 
-            public static FileLogWriter GetFileWriter()
+            public static FileLogWriter GetFileWriter(string path)
             {
                 if (_fileLogWriter == null)
-                    _fileLogWriter = new FileLogWriter();
+                    _fileLogWriter = new FileLogWriter(path);
 
                 return _fileLogWriter;
             }
