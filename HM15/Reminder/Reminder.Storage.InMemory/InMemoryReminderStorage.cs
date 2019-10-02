@@ -9,6 +9,11 @@ namespace Reminder.Storage.InMemory
 	{
 		public Dictionary<Guid, ReminderItem> Reminders;
 
+        public InMemoryReminderStorage()
+        {
+            Reminders = new Dictionary<Guid, ReminderItem>();
+        }
+
 		public void Add(ReminderItem reminderItem)
 		{
 			Reminders.Add(reminderItem.Id, reminderItem);
