@@ -60,13 +60,30 @@ namespace Reminder.Storage.InMemory.Tests
             var reminderItem = new ReminderItem(
                 date, message, contactId);
 
-            inMemoryReminderStorage.Reminders.Add(Guid.NewGuid(), reminderItem);
-            inMemoryReminderStorage.Get(reminderItem.Id);
+            inMemoryReminderStorage.Reminders.Add(reminderItem.Id, reminderItem);
+            var result = inMemoryReminderStorage.Get(reminderItem.Id);
 
             // check results
             
-            Assert.IsNotNull(inMemoryReminderStorage.Reminders);
+            Assert.IsNotNull(result);
            
+        }
+
+        [TestMethod]
+        public void Method_Get_By_Id_Should_Return_Null_If_Dictionary_Contains_No_Items()
+        {
+            // prepare test data
+
+            InMemoryReminderStorage inMemoryReminderStorage = new InMemoryReminderStorage();
+
+            // do test
+
+            var result = inMemoryReminderStorage.Get(Guid.NewGuid());
+
+            // check results
+
+            Assert.IsNull(result);
+
         }
 
         [TestMethod]
@@ -78,7 +95,7 @@ namespace Reminder.Storage.InMemory.Tests
 
             // do test
 
-            List<ReminderItem> reminderItems = inMemoryReminderStorage.Get(ReminderItemStatus.Awaiting);
+            List<ReminderItem> reminderItems = inMemoryReminderStorage.Get(ReminderItemStatus.Sent);
 
             // check results
 
@@ -107,23 +124,6 @@ namespace Reminder.Storage.InMemory.Tests
 
             Assert.AreEqual(ReminderItemStatus.Awaiting, reminderItem.Status);
 
-        }
-
-        [TestMethod]
-        public void Method_Get_By_Id_Should_Return_Null_If_Dictionary_Contains_No_Items()
-        {
-            // prepare test data
-
-            InMemoryReminderStorage inMemoryReminderStorage = new InMemoryReminderStorage();
-
-            // do test
-
-            inMemoryReminderStorage.Get(Guid.NewGuid());
-
-            // check results
-
-            Assert.IsNotNull(inMemoryReminderStorage.Reminders);
-            
         }
 
         [TestMethod]
